@@ -1,0 +1,34 @@
+# EasyFindImage - .gitignore
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# .NET
+bin/
+obj/
+publish/
+*.user
+*.suo
+*.nuget.props
+*.nuget.targets
+.vs/
+
+# Build output
+*.dll
+*.exe
+*.exe.config
+*.pdb
+*.exe.config
+
+# EasyFindImage specific
+config.xml
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
